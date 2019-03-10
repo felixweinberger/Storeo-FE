@@ -18,8 +18,8 @@ RUN npm install
 COPY . .
 
 # Run the build
-RUN npm start;
+CMD [ "npm", "start" ];
 
 # Expose the port
-EXPOSE 8080
+EXPOSE 80
 

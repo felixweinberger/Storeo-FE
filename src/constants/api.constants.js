@@ -1,5 +1,5 @@
 
-const serverURL = "http://localhost:3000"; //simply put in your server path here
+const serverURL = "http://localhost:8080"; //simply put in your server path here
 // const serverURL = `http://192.168.1.158:3000`; // zain
 //const urlZain = `http://192.168.1.158:3000`;
 //const urlUros = `http://192.168.1.149:3000`;

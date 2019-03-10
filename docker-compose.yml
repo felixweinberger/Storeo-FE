@@ -1,0 +1,10 @@
+# Use the lastest version of docker-compose syntax
+version: '3'
+
+# Define the services
+services:
+
+  app:
+    build: .
+    ports:
+     - "80:3000"
