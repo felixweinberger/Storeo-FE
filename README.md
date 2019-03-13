@@ -7,7 +7,6 @@ Storeo is an open-source, Javascript/SQL e-commerce package that allows business
 
 Storeo, provides developers with a prebuilt back-end infrustructure, including database creation queries, database seeding, complete server structure and dual front-end including Admin and Client sections. 
 
-
 ![Storeo Screenshots](/images/homepage.png)
 ![Storeo Screenshots](/images/headphones.png)
 ![Storeo Screenshots](/images/basket.png)
@@ -17,24 +16,32 @@ Storeo, provides developers with a prebuilt back-end infrustructure, including d
 
 ## Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/zain-ali-syed/Storeo_Frontend.git
-cd Storeo_Frontend
+1. Make sure that you have [Docker](https://www.docker.com/) installed. We recommend the official desktop app for your operating system.
 
-# Install the dependencies
-npm i
+2. After installing docker, clone the repo, build and run the backend with docker-compose:
 
-# Run the React App
-npm start
+```sh
+# Get the backend up and running
+mkdir ~/projects/storeo
+cd ~/projects/storeo
+git clone https://github.com/felixweinberger/Storeo-server
+docker-compose build
+docker-compose up
+
+# Get the frontend up and running (in a separate terminal)
+cd ~/projects/storeo
+git clone https://github.com/felixweinberger/Storeo-FE
+docker-compose build
+docker-compose up
 ```
+
+3. Point your browser to `http://localhost:80/` to see Storeo in action
 
 ## User and Client Sections
 
 **User Login** page endpoint: `/login`.
 
 **Admin Login** page endpoint: `/admin/login`.
-
 
 ## Tech Stack
 
@@ -50,6 +57,7 @@ npm start
 * [Sequelize](http://docs.sequelizejs.com/)
 * [JWT](https://jwt.io/) 
 * [Faker.js](https://github.com/Marak/faker.js)
+* [Docker](https://www.docker.com/)
 
 
 ## Contributors
@@ -58,4 +66,5 @@ npm start
 * Luca Panzavolta - [LucaPanzavolta](https://github.com/LucaPanzavolta) - [Linkedin](https://www.linkedin.com/in/lucapanzavolta)
 * Tomasz Gasienica - [Casprovy](https://github.com/Casprovy) - [Linkedin](https://www.linkedin.com/in/tomasz-g%C4%85sienica-szostak-cfa-279b175/)
 * Christian Francia - [ctfrancia](https://github.com/ctfrancia) - [Linkedin](https://www.linkedin.com/in/ctfrancia/)
-
+* Alan Hu - [ahuounan](https://github.com/ahuounan)
+* Felix Weinberger - [felixweinberger](https://github.com/felixweinberger)
