@@ -1,7 +1,3 @@
-<div align="center">
- <img width="auto" height="200" src="/images/storeo_logo.png" ></img>
-</div>
-
 # Storeo - FE
 Storeo is an open-source, Javascript/SQL e-commerce package that allows businesses and developers to easily create and manage their e-commerce stores.
 
