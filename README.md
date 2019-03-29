@@ -13,7 +13,6 @@ Storeo, provides developers with a prebuilt back-end infrustructure, including d
 ![Storeo Screenshots](/images/admin_section1.png)
 ![Storeo Screenshots](/images/admin_section3.png)
 
-
 ## Getting Started
 
 1. Make sure that you have [Docker](https://www.docker.com/) installed. We recommend the official desktop app for your operating system.
@@ -58,7 +57,6 @@ docker-compose up
 * [JWT](https://jwt.io/) 
 * [Faker.js](https://github.com/Marak/faker.js)
 * [Docker](https://www.docker.com/)
-
 
 ## Contributors
 * Zain Sayed - [zain-ali-syed](https://github.com/zain-ali-syed)
