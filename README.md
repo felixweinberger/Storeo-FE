@@ -45,7 +45,7 @@ docker-compose up
 * [Redux](https://redux.js.org/)
 * [Materiallize CSS](https://expo.io/)
 
-### Back-end: [Storeo-server](https://github.com/ctfrancia/Storeo-server)
+### Back-end: [Storeo-server](https://github.com/felixweinberger/storeo-server)
 * [Node.js](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 * [MySQL](https://www.mysql.com/)
