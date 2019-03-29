@@ -9,10 +9,6 @@ COPY package.json /app/package.json
 
 # Install node packages
 RUN npm install
-# RUN npm install -g http-server
-
-# Start command
-# CMD ["http-server", "./build"]
 
 # Add source files
 COPY . .
