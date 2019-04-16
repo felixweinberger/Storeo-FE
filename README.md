@@ -53,12 +53,3 @@ docker-compose up
 * [JWT](https://jwt.io/) 
 * [Faker.js](https://github.com/Marak/faker.js)
 * [Docker](https://www.docker.com/)
-
-## Contributors
-* Zain Sayed - [zain-ali-syed](https://github.com/zain-ali-syed)
-* Uros C - [ross-u](https://github.com/ross-u)
-* Luca Panzavolta - [LucaPanzavolta](https://github.com/LucaPanzavolta)
-* Tomasz Gasienica - [Casprovy](https://github.com/Casprovy)
-* Christian Francia - [ctfrancia](https://github.com/ctfrancia)
-* Alan Hu - [ahuounan](https://github.com/ahuounan)
-* Felix Weinberger - [felixweinberger](https://github.com/felixweinberger)
